@@ -21,6 +21,7 @@ int main()
     getline(cin, s);
     xoadau(s);
     xoacuoi(s);
+    // tam bay
     if (s[0] >= 'a' && s[0] <= 'z')
     {
         s[0] -= 32;
